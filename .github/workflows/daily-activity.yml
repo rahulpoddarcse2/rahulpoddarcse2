@@ -1,0 +1,30 @@
+name: Daily Activity Boost
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # runs every day at 9 AM UTC
+  workflow_dispatch:        # also allow manual trigger
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Update activity log
+        run: |
+          mkdir -p activity
+          echo "Last updated: $(date -u)" >> activity/log.md
+          echo "Day: $(date +%A), $(date +%Y-%m-%d)" >> activity/log.md
+          echo "---" >> activity/log.md
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "rahulpoddarcse2@users.noreply.github.com"
+          git config --local user.name "Rahul Poddar"
+          git add activity/log.md
+          git diff --staged --quiet || git commit -m "🟩 Daily activity update $(date +%Y-%m-%d)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
