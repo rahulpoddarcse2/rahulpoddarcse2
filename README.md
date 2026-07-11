@@ -27,7 +27,7 @@ currently   : Learning Kubernetes, GitHub Actions, Helm
 available   : Open to full-time & internship opportunities
 ```
 
----
+--
 
 ## 🛠️ Tech Stack
 
