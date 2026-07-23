@@ -24,10 +24,10 @@ education   : BCA Final Year — Cloud Data Engineering & DevOps
 target_roles: [Cloud/DevOps Engineer, Data Analyst, BI Developer]
 skills      : [Docker, AWS, Terraform, Python, Power BI, SQL, Linux]
 currently   : Learning Kubernetes, GitHub Actions, Helm
-available   : Open to full-time & internship opportunities
+available   : Open to full-time opportunities
 ```
 
---
+---
 
 ## 🛠️ Tech Stack
 
@@ -88,6 +88,20 @@ available   : Open to full-time & internship opportunities
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+---
+
+### 🌦️ [Weather Alert Service](https://github.com/rahulpoddarcse2/weather-alert-service)
+> Containerized alerting service — Flask + Postgres + Nginx, with a full CI/CD pipeline
+
+- Background scheduler polls live weather data and emails users on extreme conditions
+- Multi-stage Docker builds, non-root container user, healthchecks on every service
+- GitHub Actions pipeline: build → test → push image on merge to `main`
+
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ---
 
