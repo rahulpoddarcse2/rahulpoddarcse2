@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Rahul Poddar
 
-### ☁️ Cloud & DevOps Engineer &nbsp;|&nbsp; 📊 Data Analyst &nbsp;|&nbsp; BCA Final Year
+### ☁️ Cloud & DevOps Engineer &nbsp;|&nbsp; 📊 Data Analyst &nbsp;|&nbsp; MCA Student
 
 <br>
 
@@ -20,7 +20,7 @@
 ```yaml
 name        : Rahul Poddar
 location    : India
-education   : BCA Final Year — Cloud Data Engineering & DevOps
+education   : MCA (1st Year) — Cloud Data Engineering & DevOps | BCA Graduate
 target_roles: [Cloud/DevOps Engineer, Data Analyst, BI Developer]
 skills      : [Docker, AWS, Terraform, Python, Power BI, SQL, Linux]
 currently   : Learning Kubernetes, GitHub Actions, Helm
@@ -63,6 +63,20 @@ available   : Open to full-time opportunities
 
 ## 🚀 Featured Projects
 
+### 🌦️ [Weather Alert Service](https://github.com/rahulpoddarcse2/weather-alert-service)
+> Containerized alerting service — Flask + Postgres + Nginx, with a full CI/CD pipeline
+
+- Background scheduler polls live weather data and emails users on extreme conditions
+- Multi-stage Docker builds, non-root container user, healthchecks on every service
+- GitHub Actions pipeline: build → test → push image on merge to `main`
+
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+---
+
 ### 🐳 [Task Manager — Docker Production Stack](https://github.com/rahulpoddarcse2/task-manager-docker)
 > Production-grade 3-tier containerized app — React + Node.js + PostgreSQL + Nginx
 
@@ -91,17 +105,13 @@ available   : Open to full-time opportunities
 
 ---
 
-### 🌦️ [Weather Alert Service](https://github.com/rahulpoddarcse2/weather-alert-service)
-> Containerized alerting service — Flask + Postgres + Nginx, with a full CI/CD pipeline
+## 🏆 Trophies
 
-- Background scheduler polls live weather data and emails users on extreme conditions
-- Multi-stage Docker builds, non-root container user, healthchecks on every service
-- GitHub Actions pipeline: build → test → push image on merge to `main`
+<div align="center">
 
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![trophy](https://github-profile-trophy.vercel.app/?username=rahulpoddarcse2&theme=tokyonight&no-frame=true&row=1&column=6)
+
+</div>
 
 ---
 
@@ -135,7 +145,7 @@ available   : Open to full-time opportunities
 
 <div align="center">
 
-💼 Open to **Cloud/DevOps** and **Data Analyst** roles — full-time or internship
+💼 Open to **Cloud/DevOps** and **Data Analyst** roles — full-time
 📍 India &nbsp;|&nbsp; 🌐 Remote-friendly
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahulpoddar-2eab5)
