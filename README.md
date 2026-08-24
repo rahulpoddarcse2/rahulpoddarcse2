@@ -63,6 +63,21 @@ available   : Open to full-time opportunities
 
 ## 🚀 Featured Projects
 
+### ⚙️ [CI/CD Integration — Microservices on Kubernetes](https://github.com/rahulpoddarcse2/cicd-app-repo)
+> Three-tier microservices app deployed to Kubernetes via Jenkins CI + ArgoCD GitOps, monitored with Prometheus/Grafana
+
+- Two-repo GitOps split: app code builds images, a separate manifests repo is the single source of truth for cluster state, ArgoCD auto-syncs and self-heals
+- Jenkins pipeline detects changed services, runs tests, builds/pushes Docker images, and updates the GitOps repo automatically
+- Manifests + ArgoCD Applications + monitoring stack: [cicd-gitops-repo](https://github.com/rahulpoddarcse2/cicd-gitops-repo)
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+---
+
 ### 🌦️ [Weather Alert Service](https://github.com/rahulpoddarcse2/weather-alert-service)
 > Containerized alerting service — Flask + Postgres + Nginx, with a full CI/CD pipeline
 
