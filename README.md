@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Rahul Poddar
 
-### ☁️ Cloud & DevOps Engineer &nbsp;|&nbsp; 📊 Data Analyst &nbsp;|&nbsp; MCA Student
+### ☁️ Cloud & DevOps Engineer &nbsp;|&nbsp; 📊 Data Analyst &nbsp;|&nbsp; BCA Final Year
 
 <br>
 
@@ -20,7 +20,7 @@
 ```yaml
 name        : Rahul Poddar
 location    : India
-education   : MCA (1st Year) — Cloud Data Engineering & DevOps | BCA Graduate
+education   : BCA Final Year — specializing in Cloud Data Engineering & DevOps
 target_roles: [Cloud/DevOps Engineer, Data Analyst, BI Developer]
 skills      : [Docker, AWS, Terraform, Python, Power BI, SQL, Linux]
 currently   : Learning Kubernetes, GitHub Actions, Helm
