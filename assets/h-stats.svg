@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 56" width="1000" height="56" role="img" aria-label="GitHub Stats">
+  <defs>
+    <linearGradient id="a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2ea44f"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#111b2e"/></linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="999" height="55" rx="10" fill="url(#bg)" stroke="#30363d"/>
+  <rect x="14" y="12" width="5" height="32" rx="2.5" fill="url(#a)">
+    <animate attributeName="opacity" values="1;0.55;1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="36" y="36" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#f0f6fc">GitHub Stats</text>
+  <text x="984" y="34" text-anchor="end" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" letter-spacing="2" fill="#7d8590">LIVE ACTIVITY</text>
+</svg>

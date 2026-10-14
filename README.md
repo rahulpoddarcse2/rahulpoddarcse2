@@ -28,10 +28,9 @@
 
 </div>
 
----
 
 <a id="about"></a>
-## 👨‍💻 About Me
+<img src="assets/h-about.svg" alt="About Me" width="100%"/>
 
 I work on **cloud infrastructure, automation, and deployment pipelines**, turning "it works on my machine" into something reproducible, monitored, and safe to hand off to a team.
 
@@ -69,19 +68,14 @@ availability:
 
 </details>
 
----
 
 <a id="experience"></a>
-## 💼 Experience
+<img src="assets/h-experience.svg" alt="Experience" width="100%"/>
 
-**DevOps Intern** · DevOps Insider · *Dec 2025 – Present*
-
-Hands-on work with **AWS (EC2, S3) · Docker · Jenkins · GitHub Actions · Terraform · Prometheus · Grafana**
-
----
+<img src="assets/experience-card.svg" alt="DevOps Engineer, DevOps Insider, Dec 2025 - Present" width="100%"/>
 
 <a id="skills"></a>
-## 🛠️ Technical Skills
+<img src="assets/h-skills.svg" alt="Technical Skills" width="100%"/>
 
 <details open>
 <summary><b>☁️ Cloud & Infrastructure</b></summary>
@@ -137,10 +131,9 @@ Hands-on work with **AWS (EC2, S3) · Docker · Jenkins · GitHub Actions · Ter
 
 </details>
 
----
 
 <a id="projects"></a>
-## 🚀 Featured Projects
+<img src="assets/h-projects.svg" alt="Featured Projects" width="100%"/>
 
 | Project | Stack | Link |
 | :-- | :-- | :-- |
@@ -235,10 +228,9 @@ End-to-end BI project combining a Python ETL pipeline, customer segmentation, an
 
 </details>
 
----
 
 <a id="learning"></a>
-## 🏆 Certifications & Learning
+<img src="assets/h-learning.svg" alt="Certifications & Learning" width="100%"/>
 
 | Technology | Focus | Status |
 | :-- | :-- | :-- |
@@ -248,10 +240,9 @@ End-to-end BI project combining a Python ETL pipeline, customer segmentation, an
 | ⚙️ Terraform | IaC & AWS Provisioning | 🔄 Learning |
 | 📊 Power BI | Data Modeling & DAX | ✅ Completed |
 
----
 
 <a id="stats"></a>
-## 📈 GitHub Stats
+<img src="assets/h-stats.svg" alt="GitHub Stats" width="100%"/>
 
 <div align="center">
 
@@ -272,10 +263,9 @@ End-to-end BI project combining a Python ETL pipeline, customer segmentation, an
 
 </div>
 
----
 
 <a id="contact"></a>
-## 📫 Let's Connect
+<img src="assets/h-contact.svg" alt="Let's Connect" width="100%"/>
 
 <div align="center">
 
