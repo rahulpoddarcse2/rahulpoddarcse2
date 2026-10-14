@@ -107,19 +107,23 @@ Code → Build → Test → Containerize → Deploy → Monitor → Improve
 <a id="projects"></a>
 <img src="assets/h-projects.svg" alt="Featured Projects" width="100%"/>
 
-| Project | Stack | Link |
+| Project | Stack | Links |
 | :-- | :-- | :-- |
-| ☁️ Automated Preview Environments | Terraform · GitHub Actions · AWS · Azure | [Repo](https://github.com/rahulpoddarcse2/automated-preview-environments) |
-| ☸️ CI/CD on Kubernetes (Microservices) | Jenkins · Docker · Kubernetes · ArgoCD · Prometheus · Grafana | [App](https://github.com/rahulpoddarcse2/cicd-app-repo) · [GitOps](https://github.com/rahulpoddarcse2/cicd-gitops-repo) |
-| 🌦️ Weather Alert Service | Flask · PostgreSQL · Docker · Nginx · GitHub Actions | [Repo](https://github.com/rahulpoddarcse2/weather-alert-service) |
-| 🐳 Task Manager Docker Stack | React · Node.js · PostgreSQL · Nginx · Docker | [Repo](https://github.com/rahulpoddarcse2/task-manager-docker) |
-| 📊 E-Commerce Executive Dashboard | Python · Pandas · Scikit-learn · Power BI | [Repo](https://github.com/rahulpoddarcse2/ecommerce-executive-dashboard) |
+| ☁️ [**Automated Preview Environments**](https://github.com/rahulpoddarcse2/automated-preview-environments) | Terraform · GitHub Actions · AWS · Azure | [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulpoddarcse2/automated-preview-environments) |
+| ☸️ [**CI/CD on Kubernetes**](https://github.com/rahulpoddarcse2/cicd-app-repo) | Jenkins · Docker · Kubernetes · ArgoCD · Prometheus · Grafana | [![App Repo](https://img.shields.io/badge/App_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulpoddarcse2/cicd-app-repo) [![GitOps Repo](https://img.shields.io/badge/GitOps_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulpoddarcse2/cicd-gitops-repo) |
+| 🌦️ [**Weather Alert Service**](https://github.com/rahulpoddarcse2/weather-alert-service) | Flask · PostgreSQL · Docker · Nginx · GitHub Actions | [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulpoddarcse2/weather-alert-service) |
+| 🐳 [**Task Manager Docker Stack**](https://github.com/rahulpoddarcse2/task-manager-docker) | React · Node.js · PostgreSQL · Nginx · Docker | [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulpoddarcse2/task-manager-docker) [![Live Demo](https://img.shields.io/badge/Live_Demo-2EA44F?style=flat-square&logo=githubpages&logoColor=white)](https://rahulpoddarcse2.github.io/task-manager-docker/) |
+| 📊 [**E-Commerce Executive Dashboard**](https://github.com/rahulpoddarcse2/ecommerce-executive-dashboard) | Python · Pandas · Scikit-learn · Power BI | [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulpoddarcse2/ecommerce-executive-dashboard) [![Outputs](https://img.shields.io/badge/Outputs-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://github.com/rahulpoddarcse2/ecommerce-executive-dashboard/tree/main/outputs) |
+
+<sub>Infrastructure and CI/CD projects have no public UI, so they link to their repos (architecture, setup and pipelines are in each README).</sub>
 
 <sub>👇 Click a project below for architecture and key features.</sub>
 
 <details open>
 <summary><b>☁️ Automated Preview Environments: Terraform + GitHub Actions</b> (AWS & Azure)</summary>
 <br/>
+
+[![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulpoddarcse2/automated-preview-environments)
 
 Every open pull request gets its own live, disposable cloud environment, created automatically when the PR opens and destroyed automatically when it's merged or closed.
 
@@ -140,6 +144,8 @@ PR merged/closed → terraform destroy → comment "environment destroyed"
 <summary><b>☸️ CI/CD Integration: Microservices on Kubernetes</b></summary>
 <br/>
 
+[![App Repo](https://img.shields.io/badge/App_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulpoddarcse2/cicd-app-repo) [![GitOps Repo](https://img.shields.io/badge/GitOps_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulpoddarcse2/cicd-gitops-repo)
+
 A three-tier microservices application deployed on Kubernetes through a complete CI/CD + GitOps workflow.
 
 **Key Features**
@@ -159,6 +165,8 @@ Developer → GitHub → Jenkins CI → Docker Image → GitOps Repo
 <summary><b>🌦️ Weather Alert Service</b></summary>
 <br/>
 
+[![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulpoddarcse2/weather-alert-service)
+
 Containerized weather-alerting platform with automated CI/CD.
 
 **Key Features**
@@ -172,6 +180,8 @@ Containerized weather-alerting platform with automated CI/CD.
 <details>
 <summary><b>🐳 Task Manager: Docker Production Stack</b></summary>
 <br/>
+
+[![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulpoddarcse2/task-manager-docker) [![Live Demo](https://img.shields.io/badge/Live_Demo-2EA44F?style=flat-square&logo=githubpages&logoColor=white)](https://rahulpoddarcse2.github.io/task-manager-docker/)
 
 Production-oriented three-tier containerized application, orchestrated with Docker Compose.
 
@@ -190,6 +200,8 @@ Nginx → React (static)
 <details>
 <summary><b>📊 E-Commerce Executive Dashboard</b></summary>
 <br/>
+
+[![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rahulpoddarcse2/ecommerce-executive-dashboard) [![Outputs](https://img.shields.io/badge/Outputs-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://github.com/rahulpoddarcse2/ecommerce-executive-dashboard/tree/main/outputs)
 
 End-to-end BI project combining a Python ETL pipeline, customer segmentation, and a Power BI dashboard for business-facing insights.
 
@@ -214,7 +226,7 @@ End-to-end BI project combining a Python ETL pipeline, customer segmentation, an
 | :-- | :-- |
 | ⚙️ Terraform · ☁️ AWS | [terraform-source-code](https://github.com/rahulpoddarcse2/terraform-source-code) · [automated-preview-environments](https://github.com/rahulpoddarcse2/automated-preview-environments) |
 | 🐳 Docker · 🌐 Nginx | [task-manager-docker](https://github.com/rahulpoddarcse2/task-manager-docker) · [weather-alert-service](https://github.com/rahulpoddarcse2/weather-alert-service) |
-| ☸️ Kubernetes | [yaml-kubernetes](https://github.com/rahulpoddarcse2/yaml-kubernetes) · [Notes-App-Kubernetes-deployment-app-](https://github.com/rahulpoddarcse2/Notes-App-Kubernetes-deployment-app-) |
+| ☸️ Kubernetes | [cicd-gitops-repo](https://github.com/rahulpoddarcse2/cicd-gitops-repo) · [Notes-App-Kubernetes-deployment-app-](https://github.com/rahulpoddarcse2/Notes-App-Kubernetes-deployment-app-) |
 | 🔁 Jenkins · ArgoCD · 📡 Prometheus & Grafana | [cicd-app-repo](https://github.com/rahulpoddarcse2/cicd-app-repo) · [cicd-gitops-repo](https://github.com/rahulpoddarcse2/cicd-gitops-repo) |
 | 🚀 GitHub Actions | [weather-alert-service](https://github.com/rahulpoddarcse2/weather-alert-service) · [automated-preview-environments](https://github.com/rahulpoddarcse2/automated-preview-environments) |
 | 📊 Power BI | [ecommerce-executive-dashboard](https://github.com/rahulpoddarcse2/ecommerce-executive-dashboard) |
@@ -232,15 +244,13 @@ End-to-end BI project combining a Python ETL pipeline, customer segmentation, an
 <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" width="49%"/>
 <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most used languages" width="49%"/>
 
-<br/><br/>
+<br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rahulpoddarcse2/rahulpoddarcse2/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rahulpoddarcse2/rahulpoddarcse2/output/github-snake.svg"/>
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/rahulpoddarcse2/rahulpoddarcse2/output/github-snake.svg"/>
-</picture>
+<a href="https://github.com/rahulpoddarcse2">
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/rahulpoddarcse2/rahulpoddarcse2/output/github-snake-dark.svg" width="100%"/>
+</a>
 
-<sub>Stats and snake are generated by GitHub Actions and refresh automatically.</sub>
+<sub>🐍 The snake eats my contribution graph. Stats cards refresh daily and the snake every 12 hours, all via GitHub Actions.</sub>
 
 </div>
 
