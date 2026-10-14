@@ -38,35 +38,7 @@ I work on **cloud infrastructure, automation, and deployment pipelines**, turnin
 Code → Build → Test → Containerize → Deploy → Monitor → Improve
 ```
 
-<details>
-<summary><b>📋 Quick facts (click to expand)</b></summary>
-<br/>
-
-```yaml
-name: Rahul Poddar
-location: India
-role: Cloud & DevOps Engineer
-
-education:
-  degree: BCA
-  specialization: Cloud Data Engineering & DevOps
-
-cloud:
-  - AWS
-  - Microsoft Azure
-
-currently_learning:
-  - Kubernetes & Helm
-  - GitHub Actions & GitOps
-  - Advanced Terraform
-  - DevSecOps
-
-availability:
-  - Full-time opportunities
-  - Immediate joiner
-```
-
-</details>
+<img src="assets/quick-facts.svg" alt="Quick facts about Rahul Poddar" width="100%"/>
 
 
 <a id="experience"></a>
