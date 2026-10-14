@@ -239,10 +239,15 @@ End-to-end BI project combining a Python ETL pipeline, customer segmentation, an
 
 <div align="center">
 
-<img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" width="49%"/>
-<img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" width="49%"/>
-<img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" width="49%"/>
-<img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most used languages" width="49%"/>
+<a href="https://github.com/rahulpoddarcse2?tab=overview">
+  <img src="assets/stats-dashboard.svg" alt="GitHub overview: contributions, commits, repositories, streaks, monthly activity and top languages" width="100%"/>
+</a>
+
+<br/>
+
+<a href="https://github.com/rahulpoddarcse2?tab=repositories"><img src="https://img.shields.io/badge/Browse-All_Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Browse all repositories"/></a>
+<a href="https://github.com/rahulpoddarcse2?tab=overview"><img src="https://img.shields.io/badge/View-Contribution_Activity-2EA44F?style=for-the-badge&logo=github&logoColor=white" alt="View contribution activity"/></a>
+<a href="https://github.com/rahulpoddarcse2?tab=followers"><img src="https://img.shields.io/github/followers/rahulpoddarcse2?style=for-the-badge&logo=github&label=Followers&color=0e75b6" alt="Followers"/></a>
 
 <br/>
 
@@ -250,7 +255,7 @@ End-to-end BI project combining a Python ETL pipeline, customer segmentation, an
   <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/rahulpoddarcse2/rahulpoddarcse2/output/github-snake-dark.svg" width="100%"/>
 </a>
 
-<sub>🐍 The snake eats my contribution graph. Stats cards refresh daily and the snake every 12 hours, all via GitHub Actions.</sub>
+<sub>🐍 The snake eats my contribution graph. The stats dashboard refreshes daily and the snake every 12 hours, all via GitHub Actions.</sub>
 
 </div>
 

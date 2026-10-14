@@ -1,4 +1,4 @@
-name: Profile Stats Cards
+name: Profile Stats Dashboard
 
 on:
   schedule:
@@ -13,11 +13,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+      - name: Generate stats dashboard
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: main
-          UTC_OFFSET: 5
-          THEME: tokyonight
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: python3 .github/scripts/generate_stats.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats-dashboard.svg
+          git diff --cached --quiet || (git commit -m "chore: refresh stats dashboard" && git pull --rebase -q && git push)
