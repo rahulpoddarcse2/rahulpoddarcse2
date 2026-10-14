@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Rahul Poddar - Cloud and DevOps Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#112240"/>
+      <stop offset="1" stop-color="#0b3b5c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ea44f"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="260" rx="14" fill="url(#bg)"/>
+  <rect width="1000" height="260" rx="14" fill="url(#grid)"/>
+
+  <text x="500" y="82" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="46" font-weight="700" fill="#ffffff">Rahul Poddar</text>
+  <text x="500" y="118" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" letter-spacing="4" fill="url(#accent)">CLOUD &amp; DEVOPS ENGINEER</text>
+
+  <!-- pipeline -->
+  <line x1="140" y1="196" x2="860" y2="196" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2" stroke-dasharray="6 6">
+    <animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1.2s" repeatCount="indefinite"/>
+  </line>
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">
+    <circle cx="140" cy="196" r="9" fill="#2ea44f"/><text x="140" y="228">Code</text>
+    <circle cx="320" cy="196" r="9" fill="#2ea44f"/><text x="320" y="228">Build</text>
+    <circle cx="500" cy="196" r="9" fill="#38bdf8"/><text x="500" y="228">Containerize</text>
+    <circle cx="680" cy="196" r="9" fill="#38bdf8"/><text x="680" y="228">Deploy</text>
+    <circle cx="860" cy="196" r="9" fill="#a78bfa"/><text x="860" y="228">Monitor</text>
+  </g>
+  <circle r="6" fill="#ffffff">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M140,196 L860,196"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <g fill="none" stroke="#2ea44f" stroke-width="2">
+    <circle cx="140" cy="196" r="9"><animate attributeName="r" values="9;18" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
