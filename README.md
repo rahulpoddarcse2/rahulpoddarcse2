@@ -204,13 +204,22 @@ End-to-end BI project combining a Python ETL pipeline, customer segmentation, an
 <a id="learning"></a>
 <img src="assets/h-learning.svg" alt="Certifications & Learning" width="100%"/>
 
-| Technology | Focus | Status |
-| :-- | :-- | :-- |
-| ☁️ AWS | Cloud Practitioner Concepts | 🔄 Learning |
-| 🐳 Docker | Production Docker & Compose | ✅ Completed |
-| ☸️ Kubernetes | Kubernetes & Helm Fundamentals | 🔄 Learning |
-| ⚙️ Terraform | IaC & AWS Provisioning | 🔄 Learning |
-| 📊 Power BI | Data Modeling & DAX | ✅ Completed |
+<img src="assets/learning-path.svg" alt="Hands-on DevOps toolkit: 12 of 12 tools completed" width="100%"/>
+
+<details>
+<summary><b>🔗 See where I applied these tools (click to expand)</b></summary>
+<br/>
+
+| Tool | Applied in |
+| :-- | :-- |
+| ⚙️ Terraform · ☁️ AWS | [terraform-source-code](https://github.com/rahulpoddarcse2/terraform-source-code) · [automated-preview-environments](https://github.com/rahulpoddarcse2/automated-preview-environments) |
+| 🐳 Docker · 🌐 Nginx | [task-manager-docker](https://github.com/rahulpoddarcse2/task-manager-docker) · [weather-alert-service](https://github.com/rahulpoddarcse2/weather-alert-service) |
+| ☸️ Kubernetes | [yaml-kubernetes](https://github.com/rahulpoddarcse2/yaml-kubernetes) · [Notes-App-Kubernetes-deployment-app-](https://github.com/rahulpoddarcse2/Notes-App-Kubernetes-deployment-app-) |
+| 🔁 Jenkins · ArgoCD · 📡 Prometheus & Grafana | [cicd-app-repo](https://github.com/rahulpoddarcse2/cicd-app-repo) · [cicd-gitops-repo](https://github.com/rahulpoddarcse2/cicd-gitops-repo) |
+| 🚀 GitHub Actions | [weather-alert-service](https://github.com/rahulpoddarcse2/weather-alert-service) · [automated-preview-environments](https://github.com/rahulpoddarcse2/automated-preview-environments) |
+| 📊 Power BI | [ecommerce-executive-dashboard](https://github.com/rahulpoddarcse2/ecommerce-executive-dashboard) |
+
+</details>
 
 
 <a id="stats"></a>
